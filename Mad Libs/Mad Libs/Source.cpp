@@ -33,7 +33,7 @@ int main()
 	c = a - b;
 
 	cout << "The " << color << " dog is the " << est << " dog of all. It has " << c << " " << bodyPlural << ", and a " << animal
-		<< " shaped like a noun. It loves to eat " << nounPlural << ", though it will eat most anything." << endl;
+		<< " shaped like a " << noun << ". It loves to eat " << nounPlural << ", though it will eat most anything." << endl;
 
 	system("Pause");
 	return 0;
