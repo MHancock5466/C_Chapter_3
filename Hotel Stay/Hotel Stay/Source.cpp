@@ -19,7 +19,7 @@ int main()
 	cin >> daysStayed;
 	
 	totalBill = roomCharge * daysStayed + internetCharge * daysStayed;
-	cout << "Your bill will be: $" << totalBill << " for " << daysStayed << "days.\nEnjoy your stay, " << name << "!" << endl;
+	cout << "Your bill will be $" << totalBill << " for " << daysStayed << " days.\nEnjoy your stay, " << name << "!" << endl;
 
 	system("Pause");
 	return 0;
