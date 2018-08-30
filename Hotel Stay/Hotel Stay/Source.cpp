@@ -11,7 +11,7 @@ int main()
 	double daysStayed = 0;
 	const double roomCharge = 120.0;
 	const double internetCharge = 9.99;
-	double totalBill = 0;
+	double totalBill = 0.0;
 
 	cout << "Please Input Your Name: ";
 	cin >> name;
