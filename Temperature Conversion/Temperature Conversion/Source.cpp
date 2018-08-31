@@ -29,9 +29,9 @@ int main()
 		cin >> temp3;
 	} while (temp3 > 10 + temp2);
 
-	cout << "Temperature at 8:00 am: " << temp1 << " degrees F. " << temp1 * 9 / 5 + 32 << " degrees C." << endl;
-	cout << "Temperature at 12:00 pm: " << temp2 << " degrees F. " << temp2 * 9 / 5 + 32 << " degrees C." << endl;
-	cout << "Temperature at 5:00 pm " << temp3 << " degrees F. " << temp3 * 9 / 5 + 32 << " degrees C." << endl;
+	cout << "Temperature at 8:00 am: " << temp1 << " degrees F. " << (temp1-32)*5/9 << " degrees C." << endl;
+	cout << "Temperature at 12:00 pm: " << temp2 << " degrees F. " << (temp2-32)*5/9 << " degrees C." << endl;
+	cout << "Temperature at 5:00 pm " << temp3 << " degrees F. " << (temp3-32)*5/9 << " degrees C." << endl;
 
 	system("Pause");
 	return 0;
